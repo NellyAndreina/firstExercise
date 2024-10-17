@@ -41,7 +41,3 @@ Para la implementacion de el proyecto se utilizaron las siguientes herramientas:
 
 * [Json](https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/JSON)
 
-
-
-
-
