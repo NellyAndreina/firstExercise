@@ -9,7 +9,7 @@ export default class AutocompletePage {
    addAutocomplete(){
        cy.get('#Meal').click().type('Hello, world');
    } 
-   addDropDownList(){
+   selectFromFruitsDropdownList(){
        cy.get(this.selector).click({ multiple: true })
        cy.get(this.dropDownOptions).then($options => {
            const randomIndex = Math.floor(Math.random() * $options.length)

@@ -10,9 +10,9 @@ describe('Pruebas de la categoria de Completar datos', () => {
     beforeEach(() => { autocompletePage.navigateForm();  
   });
 
-  it('Mostrar los campos a llenar', () => {
+  it('Interactuar con los campos', () => {
     autocompletePage.addAutocomplete();
-    autocompletePage.addDropDownList();
+    autocompletePage.selectFromFruitsDropdownList();
     autocompletePage.clickButtonGroup();
     autocompletePage.addDateTimePicker();
   });
