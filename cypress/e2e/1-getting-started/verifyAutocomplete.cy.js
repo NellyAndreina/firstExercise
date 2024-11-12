@@ -11,10 +11,12 @@ describe('Pruebas de la categoria de Completar datos', () => {
   });
 
   it('Interactuar con los campos', () => {
+    autocompletePage.selectFruitCombobox();
     autocompletePage.addAutocomplete();
-    autocompletePage.selectFromFruitsDropdownList();
+    autocompletePage.addFruitDropDownList();
     autocompletePage.clickButtonGroup();
     autocompletePage.addDateTimePicker();
+    autocompletePage.selectVegetablesDropDownList();
   });
 
     });
